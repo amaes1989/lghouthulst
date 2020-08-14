@@ -13,7 +13,7 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . "vendor" . DIRECTORY_SEPARATOR ."au
  * See: https://www.mollie.com/dashboard/developers/api-keys
  */
 $mollie = new \Mollie\Api\MollieApiClient();
-$mollie->setApiKey("test_x3z3KAJjdrEAWuqzHs5nvREvUJhap6");
+$mollie->setApiKey("");
 
 $payment = $mollie->payments->create([
     "amount" => [
